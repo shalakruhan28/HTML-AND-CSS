@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head><title>grid practics</title>
+    <style>
+      .grid{
+        display: grid;
+        grid-template-columns: 200px 75px;
+        row-gap: 100px;
+      }
+      .lightblue{
+        background-color: lightblue;
+      }
+      .lightpink{
+        background-color: lightpink;
+      }
+      .grid1{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+       
+      }
+      .lightblue1{
+        background-color: lightblue;
+      }
+      .lightpink1{
+        background-color: lightpink;
+      }
+      .lightblue2{
+        background-color: lightblue;
+      }
+      .grid4{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+      .lightpink4{
+       background-color: lightpink;
+      }
+    </style>
+  </head>
+<body>
+ <div>   
+  <div class="grid">
+  <div class="lightblue">200px</div>
+  <div class="lightpink">75px</div>
+</div>
+ 
+ <div>
+  <div class="grid1">
+    <div class="lightblue1">col1</div>
+    <div class="lightpink1">col2</div>
+    <div class="lightblue2">col3</div>
+  </div>
+<div class="grid4">
+    <div class="lightpink4">col1</div>
+    <div class="lightpink4">col2</div>
+    <div class="lightpink4">col3</div>
+    <div class="lightpink4">col4</div>
+    <div class="lightpink4">col1</div>
+    <div class="lightpink4">col2</div>
+    <div class="lightpink4">col3</div>
+    <div class="lightpink4">col4</div>
+  </div>
+</body>
+</html>

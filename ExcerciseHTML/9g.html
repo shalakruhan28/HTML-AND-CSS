@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div project</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .profile {
+        width: 200px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        margin-right: 15px;
+      }
+
+      .img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 8px;
+        margin-bottom: 4px;
+      }
+
+      .mutual {
+        color: rgb(100, 100, 100);
+        margin-left: 6px;
+        margin-bottom: 12px;
+        display: inline-block;
+      }
+
+      .add {
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        margin-top: 3px;
+      }
+      .mutual-friend-picture {
+        height: 28px;
+        width: 28px;
+        object-fit: cover;
+        border-radius: 14px;
+        vertical-align: middle;
+        margin-left: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img src="image/Shalak1.jpg" class="img" />
+      <p class="name">Abu</p>
+
+      <div class="mutual">
+        <img class="mutual-friend-picture" src="image/shalak3.jpeg" />
+        <p class="mutual">2 mutual friend</p>
+      </div>
+      <button class="add">Add Friend</button>
+    </div>
+
+    <div class="profile">
+      <img src="image/Shalak2.jpg" class="img" />
+
+      <p class="name">Shalak</p>
+
+      <div class="mutual">
+        <img class="mutual-friend-picture" src="image/shalak1.jpg" />
+        <p class="mutual">3 mutual friend</p>
+      </div>
+
+      <button class="add">Add Friend</button>
+    </div>
+    <div class="profile">
+      <img src="image/Shalak3.jpeg" class="img" />
+
+      <p class="name">Ruhan</p>
+
+      <div class="mutual">
+        <img class="mutual-friend-picture" src="image/shalak2.jpg" />
+        <p class="mutual">4 mutual friend</p>
+      </div>
+      <button class="add">Add Friend</button>
+    </div>
+  </body>
+</html>
